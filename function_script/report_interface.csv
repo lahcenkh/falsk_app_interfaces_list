@@ -1,0 +1,27 @@
+Hostname,InterfaceName,Description,IP,MAC,InterfaceState,ProtocolState,LinkQuality,InputRate,OutputRate
+R2-HOME,Ethernet1/0/0, netmiko-lahcen-py,192.168.1.16/24,387b-2902-0100,UP (ifindex: 5),UP,GOOD,0.01%,0.01%
+R2-HOME,Ethernet1/0/1,--,--,387b-2902-0101,UP (ifindex: 6),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/2,--,--,387b-2902-0102,UP (ifindex: 7),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/3, TEST-VULA,1.1.1.1/30,387b-2902-0103,UP (ifindex: 8),UP,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/4,--,--,387b-2902-0104,UP (ifindex: 9),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/5,--,--,387b-2902-0105,UP (ifindex: 10),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/6,--,--,387b-2902-0106,UP (ifindex: 11),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/7,--,--,387b-2902-0107,UP (ifindex: 12),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/8,--,--,387b-2902-0108,UP (ifindex: 13),DOWN,GOOD,0.00%,0.00%
+R2-HOME,Ethernet1/0/9,--,--,387b-2902-0109,UP (ifindex: 14),DOWN,GOOD,0.00%,0.00%
+R2-HOME,GigabitEthernet0/0/0, wifi,5.5.5.5/30,387b-2902-1110,UP (ifindex: 3),UP,GOOD,0.00%,0.00%
+R2-HOME,LoopBack0, LoopBack-R2,3.3.3.3/32,--,UP (ifindex: 15),UP,,0.00%,0.00%
+R2-HOME,NULL0,--,--,--,UP (ifindex: 1),UP,,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/0, netmiko-lahcen-py,192.168.1.15/24,387b-2901-0100,UP (ifindex: 5),UP,GOOD,0.01%,0.01%
+R1-ORANGE,Ethernet1/0/1,--,--,387b-2901-0101,UP (ifindex: 6),DOWN,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/2, PC-HOME,192.168.2.101/24,387b-2901-0102,UP (ifindex: 7),UP,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/3, JAVASCRIPT,--,387b-2901-0103,UP (ifindex: 8),DOWN,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/4, TO-AD-SRV,10.10.1.1/24,387b-2901-0104,UP (ifindex: 9),UP,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/5, fatima-ofppt,12.12.12.12/24,387b-2901-0105,UP (ifindex: 10),UP,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/6, Mzin-CAS-1,172.29.15.13/29,387b-2901-0106,UP (ifindex: 11),UP,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/7,--,--,387b-2901-0107,UP (ifindex: 12),DOWN,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/8,--,--,387b-2901-0108,UP (ifindex: 13),DOWN,GOOD,0.00%,0.00%
+R1-ORANGE,Ethernet1/0/9,--,--,387b-2901-0109,UP (ifindex: 14),DOWN,GOOD,0.00%,0.00%
+R1-ORANGE,GigabitEthernet0/0/0, TEST-FLASK,117.1.1.1/24,387b-2901-1110,UP (ifindex: 3),UP,GOOD,0.00%,0.00%
+R1-ORANGE,LoopBack0, LoopBack-R1,1.1.1.1/32,--,UP (ifindex: 15),UP,,0.00%,0.00%
+R1-ORANGE,NULL0,--,--,--,UP (ifindex: 1),UP,,0.00%,0.00%

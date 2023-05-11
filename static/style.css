@@ -1,0 +1,71 @@
+* {
+    font-family: Calibri;
+}
+
+#my-table {
+    border-radius: 5px;
+    background-color: #f1f1f191;
+}
+
+
+th, td {
+    border: .1px solid #7474742c;
+}
+
+thead {
+    background-color:#04AA6D;
+    color: white;
+}
+
+.dt-dropdown {
+    font-family: 'Calibri';
+}
+.dt-selector {
+    font-family: 'Calibri';
+    border-radius: 5px;
+    border: 2px solid #04aa6d;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+}
+
+option:checked {
+    background-color: #24b37e;
+}
+
+.dt-selector:focus {
+    outline: none;
+}
+
+.dt-input {
+    width: 200px;
+    border-radius: 5px;
+    border: .5px solid rgb(230, 230, 230);
+    height: 21px;
+    box-shadow: 0 0 1.5px rgba(0, 0, 0, 0.164);
+}
+
+.dt-input::placeholder {
+    color: rgb(121, 121, 121);
+    font-family: 'Calibri';
+    font-size: 16px;
+}
+
+.dt-input:focus {
+    outline-color: #04aa6d63;
+    outline-offset: .5px;
+
+}
+ 
+.pager, .active, a{
+    border-radius: 5px;
+    background-color: #04AA6D;
+}
+
+th:first-child {
+    border-radius: 5px 0px  0px 0px;
+}
+
+th:last-child {
+    border-radius: 0px 5px  0px 0px;
+}

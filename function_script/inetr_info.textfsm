@@ -1,0 +1,20 @@
+Value Hostname (\w+)
+Value InterfaceName (NULL0|LoopBack\d+|(\w+\/\d+\/\d+))
+Value Description (\s\S+|\S+)
+Value IP ((\d{1,3}\.){3}\d{1,3}\/\d{2}$)
+Value MAC ((\w{4}-){2}\w{4})
+Value InterfaceState (((UP|DOWN)\s\(\w+.\s\d+\))|(UP|DOWN))
+Value ProtocolState (UP|DOWN)
+Value LinkQuality (\w+)
+Value InputRate (\d+.\d+%|\d+%)
+Value OutputRate (\d+.\d+%|\d+%)
+
+Start
+ ^${InterfaceName} current state : ${InterfaceState}
+ ^Line protocol current state : ${ProtocolState}
+ ^Link quality grade :\s+${LinkQuality}
+ ^Description:${Description}
+ ^Internet Address is ${IP}
+ ^IP Sending Frames' Format is \w+, Hardware address is ${MAC}
+ ^\s+Last \d+ seconds input utility rate:\s+${InputRate}
+ ^\s+Last \d+ seconds output utility rate:\s+${OutputRate} -> Record

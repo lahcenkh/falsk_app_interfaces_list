@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content=IE=edge>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <link rel="stylesheet" type="text/css" href="../static/jstable.css">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <script type="text/javascript" src="../static/jstable.min.js"></script>
+    <title>List Interface</title>
+</head>
+
+<body>
+    <h2>List of interface</h2>
+    <div id="my-table" style="overflow-x:auto;">
+        <table id="interfaces_table">
+            <thead>
+                <tr>
+                    <th>Hostname</th>
+                    <th>InterfaceName</th>
+                    <th>Description</th>
+                    <th>IP</th>
+                    <th>MAC</th>
+                    <th>InterfaceState</th>
+                    <th>ProtocolState</th>
+                    <th>LinkQuality</th>
+                    <th>InputRate</th>
+                    <th>OutputRate</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for inter in interfaces_list %}
+                <tr>
+                    <td>{{inter["Hostname"]}}</td>
+                    <td>{{inter["InterfaceName"]}}</td>
+                    <td>{{inter["Description"]}}</td>
+                    <td>{{inter["IP"]}}</td>
+                    <td>{{inter["MAC"]}}</td>
+                    <td>{{inter["InterfaceState"]}}</td>
+                    <td>{{inter["ProtocolState"]}}</td>
+                    <td>{{inter["LinkQuality"]}}</td>
+                    <td>{{inter["InputRate"]}}</td>
+                    <td>{{inter["OutputRate"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="../static/main.js"></script>
+</body>
+
+</html>
